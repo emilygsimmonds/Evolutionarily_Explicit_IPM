@@ -23,15 +23,15 @@ This repository contains:
 
 [Recruitment_analysis.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script to run model selection for the recruitment function using a linear mixed effect model in R package 'lme4'
 
-[Caterpillar_timing_analysis.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script to run model selection for the caterpillar timing function using a linear model
+[Inheritance_analysis_standard.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script to run model selection for the inheritance function in the standard IPM using a linear mixed effect model in R package 'lme4'
 
-[Inheritance_analysis_standard_IPM.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script to run model selection for the inheritance function in the standard IPM using a linear mixed effect model in R package 'lme4'
-
-[Inheritance_analysis_quantgen_IPM.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script to run model selection for the inheritance function in the quantitative genetic IPM using an animal model using R package 'MCMCglmm'
+[Inheritance_analysis_quantgen.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script to run model selection for the inheritance function in the quantitative genetic IPM using an animal model using R package 'MCMCglmm'
 
 [Statistical_model_functions.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script containing wrapper functions to run each demographic function and the caterpillar timing function for all of the cross validation test/training dataset combinations
 
 [Run_demographic_functions_cross_validation.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script to run each demographic function and the caterpillar timing function using Statistical_model_functions.R, produces parameter values for each function for the cross validation datasets
+
+[Moment_function.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script containing function to extract four moments from model simulation outputs
 
 ### Scripts relating to the running of the integral projection models (standard and quantitative genetic):
 
@@ -41,13 +41,11 @@ This repository contains:
 
 [Standard_IPM.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script containing the function to run the standard integral projection model 
 
-[Cross_validation.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script to run model cross validation for both the standard and the evolutionarily explicit integral projection models
+[Run_cross_validation.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script to run model cross validation for both the standard and the evolutionarily explicit integral projection models
 
 [Directional_change_simulation.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script to run the directional environmental change simulation for the evolutionarily explicit integral projection model
 
 ### Scripts to create Figures from the manuscript:
-
-[Moment_function.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script containing function to extract four moments from model simulation outputs
 
 [Reformat_data_for_plotting.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script containing a function to reformat model simulation outputs ready for plotting
 
@@ -56,5 +54,3 @@ This repository contains:
 [Figure_2.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script to plot Figure 2
 
 [Figure_3.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script to plot Figure 3
-
-[Figure_SOM.R](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Script to plot supporting information figures and tables

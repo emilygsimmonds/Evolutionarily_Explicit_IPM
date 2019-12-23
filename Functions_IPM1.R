@@ -24,16 +24,18 @@ create_marked <- function(datafile, basta_input, full_years, test_years, type=c(
   temp$Immigrant <- rep(NA, length(temp[,1]))
   temp$Round <- rep(NA, length(temp[,1]))
   
-  # for each individual add their Immigrant status, birth year hatch date, and section of woodland
+  # for each individual add their Immigrant status and section of woodland
   for(l in IDs){
     temp_data <- subset(datafile, datafile$F_ID == l)
     marker <- which(row.names(temp)==l)
-    ifelse(temp_data$Immigrant[1] == 1, temp$Immigrant[marker] <- "Immigrant", temp$Immigrant[marker] <- "Resident")
+    ifelse(temp_data$Immigrant[1] == 1, temp$Immigrant[marker] <- "Immigrant", 
+           temp$Immigrant[marker] <- "Resident")
     temp$Round[marker] <- as.character(temp_data$Round[which.max(temp_data$Round)])
   }
 
   # now we want the individual covariates
-  if(type=="K_fold"){marker <- seq(which(full_years == min(test_years)-1), which(full_years == max(test_years)-1), 1)
+  if(type=="K_fold"){marker <- seq(which(full_years == min(test_years)-1), 
+                                   which(full_years == max(test_years)-1), 1)
   years <- full_years[-marker]}else{years <- full_years}
   output_store <- matrix(NA, ncol=length(years)*5, nrow=length(temp[,1]))
   
@@ -61,9 +63,12 @@ create_marked <- function(datafile, basta_input, full_years, test_years, type=c(
   }
   
   col_name_data <- data.frame(April_hatch = "ah", Synchrony = "sn", Clutch_size = "cs",
-                              April_hatch2 = "ahs", Synchrony2 = "sns", Year = seq(1960, 2004, 1)) 
-  if(type=="Full"){col_name_data <- data.frame(April_hatch = "ah", Synchrony = "sn", Clutch_size = "cs",
-                                               April_hatch2 = "ahs", Synchrony2 = "sns", Year = seq(1960, 2009, 1)) }
+                              April_hatch2 = "ahs", Synchrony2 = "sns", 
+                              Year = seq(1960, 2004, 1)) 
+  if(type=="Full"){col_name_data <- data.frame(April_hatch = "ah", Synchrony = "sn", 
+                                               Clutch_size = "cs",
+                                               April_hatch2 = "ahs", Synchrony2 = "sns",
+                                               Year = seq(1960, 2009, 1)) }
   # need to name them in specific way
   marker1 <- c(1,6)
   marker2 <- c(2,6)
