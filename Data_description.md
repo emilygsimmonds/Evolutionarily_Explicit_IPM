@@ -25,16 +25,17 @@ Columns are:
 * Immigrant (binary variable indicating if a bird was recorded as born in the woodland (1) or not (0))
 * beech (factor indicating amount of beech mast in winter from none (0), little (1), to high (2))
 * pop_size (number of unique breeding females counted in the breeding season - SCALED)
-* Spring_temp (mean of mean daily temperatures (ºC) from 1st march to 9th April (Met Office, 2009, Hollis and McCarthy, 2017) - SCALED)
-* winter_temp (mean of mean daily temperatures (ºC) from 1st December to 28/29th February Met Office, 2009; Hollis and McCarthy, 2017) - SCALED)
+* Spring_temp (mean of mean daily temperatures (ÂºC) from 1st march to 9th April (Met Office, 2009, Hollis and McCarthy, 2017) - SCALED)
+* winter_temp (mean of mean daily temperatures (ÂºC) from 1st December to 28/29th February Met Office, 2009; Hollis and McCarthy, 2017) - SCALED)
 * winter_precip_t (sum of precipitation (mm) from 1st April to 31st May (Radcliffe Meterological Station, 2016) - SCALED)
 * spring_precip_t (sum of precipitation (mm) from 1st December to 28/29th February (Radcliffe Meterological Station, 2016) - SCALED)
 * Round (Section of the woodland based on habitat type (factor))
 * Half_fall (date of peak caterpillar abundance in days since 1st April	Median date on which first instar winter moth larvae descend to ground to pupate - SCALED)
 * R_pop_size (number of unique breeding females that were recorded as born in the woodland and counted in the breeding season - SCALED)
-[descale.csv](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : biological data used in the analyses. Rows are individual breeding attempts. Continuous variables are not scaled. All variables are the same as in bio_data.csv.
 
-[bio_data_inheritance.csv](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : biological data used in the analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation). Restricted to birds that appear in the pedigree. Columns are the same as bio_data.csv with three additions.
+[descale.csv](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : biological data used in the analyses. Rows are individual breeding attempts. Continuous variables are not scaled. All variables are the same as in bio_data.csv.
+
+[bio_data_inheritance.csv](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : biological data used in the inheritance analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation). Restricted to birds that appear in the pedigree. Columns are the same as bio_data.csv with three additions.
 
 Columns are: 
 
@@ -42,17 +43,17 @@ Columns are:
 * animal (the unique British Trust for Ornithology ring number for the focal female)
 * ID (the unique British Trust for Ornithology ring number for the focal female)
 
-[bio_data_t.csv](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : biological data used in the analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation). Restricted to birds that appear in at least two consecutive years in the data.
+[bio_data_t.csv](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : biological data used in the development analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation). Restricted to birds that appear in at least two consecutive years in the data.
 
-[bio_data_t1.csv](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : biological data used in the analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation). Restricted to birds that appear in at least two consecutive years in the data. This datafile contains the data for the year following that in bio_data_t.csv.
+[bio_data_t1.csv](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : biological data used in the development analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation). Restricted to birds that appear in at least two consecutive years in the data. This datafile contains the data for the year following that in bio_data_t.csv.
 
 Columns are: 
 
 * F_ID (the unique British Trust for Ornithology ring number for each female)
 * April_hatch_t1 (date that first egg in the nest associated with this breeding attempt hatched. In days since April 1st - SCALED - for time t+1)
 * pop_size_t1 (number of unique breeding females counted in the breeding season - SCALED - for time t+1)
-* Spring_temp_t1 (mean of mean daily temperatures (ºC) from 1st march to 9th April (Met Office, 2009, Hollis and McCarthy, 2017) - SCALED - for time t+1)
-* winter_temp_t1 (mean of mean daily temperatures (ºC) from 1st December to 28/29th February Met Office, 2009; Hollis and McCarthy, 2017) - SCALED - for time t+1)
+* Spring_temp_t1 (mean of mean daily temperatures (ÂºC) from 1st march to 9th April (Met Office, 2009, Hollis and McCarthy, 2017) - SCALED - for time t+1)
+* winter_temp_t1 (mean of mean daily temperatures (ÂºC) from 1st December to 28/29th February Met Office, 2009; Hollis and McCarthy, 2017) - SCALED - for time t+1)
 * winter_precip_t1 (sum of precipitation (mm) from 1st April to 31st May (Radcliffe Meterological Station, 2016) - SCALED - for time t+1)
 * spring_precip_t1 (sum of precipitation (mm) from 1st December to 28/29th February (Radcliffe Meterological Station, 2016) - SCALED - for time t+1) 
 * Round_t1 (Section of the woodland based on habitat type (factor) - for time t+1)
@@ -73,8 +74,8 @@ Columns are:
 * R_Var_clutch_size (Variance of the clutch sizes - for resident birds only)
 * Beech (factor indicating amount of beech mast in winter from none (0), little (1), to high (2))
 * Pop_size (number of unique breeding females counted in the breeding season)
-* s_temp (mean of mean daily temperatures (ºC) from 1st march to 9th April (Met Office, 2009, Hollis and McCarthy, 2017))
-* w_temp (mean of mean daily temperatures (ºC) from 1st December to 28/29th February Met Office, 2009; Hollis and McCarthy, 2017))
+* s_temp (mean of mean daily temperatures (ÂºC) from 1st march to 9th April (Met Office, 2009, Hollis and McCarthy, 2017))
+* w_temp (mean of mean daily temperatures (ÂºC) from 1st December to 28/29th February Met Office, 2009; Hollis and McCarthy, 2017))
 * w_precip (sum of precipitation (mm) from 1st April to 31st May (Radcliffe Meterological Station, 2016))
 * s_precip (sum of precipitation (mm) from 1st December to 28/29th February (Radcliffe Meterological Station, 2016))
 * half_fall (date of peak caterpillar abundance in days since 1st April	Median date on which first instar winter moth larvae descend to ground to pupate)
@@ -95,8 +96,8 @@ Columns are:
 * Year (year of study)
 * Beech (factor indicating amount of beech mast in winter from none (0), little (1), to high (2))
 * Pop_size (number of unique breeding females counted in the breeding season - SCALED)
-* Spring_temp (mean of mean daily temperatures (ºC) from 1st march to 9th April (Met Office, 2009, Hollis and McCarthy, 2017) - SCALED)
-* Winter_temp (mean of mean daily temperatures (ºC) from 1st December to 28/29th February Met Office, 2009; Hollis and McCarthy, 2017) - SCALED)
+* Spring_temp (mean of mean daily temperatures (ÂºC) from 1st march to 9th April (Met Office, 2009, Hollis and McCarthy, 2017) - SCALED)
+* Winter_temp (mean of mean daily temperatures (ÂºC) from 1st December to 28/29th February Met Office, 2009; Hollis and McCarthy, 2017) - SCALED)
 * Winter_precip (sum of precipitation (mm) from 1st April to 31st May (Radcliffe Meterological Station, 2016) - SCALED)
 * Spring_precip (sum of precipitation (mm) from 1st December to 28/29th February (Radcliffe Meterological Station, 2016) - SCALED)
 * R_pop_size (number of unique breeding females that were recorded as born in the woodland and counted in the breeding season - SCALED)
