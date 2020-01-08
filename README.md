@@ -5,7 +5,9 @@ output: html_document
 
 ## Code for manuscript: Testing the effect of quantitative genetic inheritance in structured models on projections of population dynamics
 
-## DOI: https://doi.org/10.1111/oik.06985
+## DOI of paper: https://doi.org/10.1111/oik.06985
+
+## DOI of data: 10.5281/zenodo.3601072
 
 This repository contains:
 
