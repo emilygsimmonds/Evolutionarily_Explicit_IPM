@@ -76,3 +76,7 @@ Full description of all files and contents in [Data_description.md](https://gith
 [Figure_3.R](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/Figure_3.R) : Script to plot Figure 3
 
 [Figure_4.R](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/Figure_4.R) : Script to plot Figure 4
+
+### Model outputs:
+
+Many of these are too large to store on GitHub but can be found on our Zenodo repository
