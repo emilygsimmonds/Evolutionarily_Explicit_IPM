@@ -5,13 +5,31 @@ output: html_document
 
 ## Code for manuscript: Testing the effect of quantitative genetic inheritance in structured models on projections of population dynamics
 
-## DOI: 
+## DOI: https://doi.org/10.1111/oik.06985
 
 This repository contains:
 
 ### Data files:
 
-[bio_data.csv](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : biological data used in the analyses. Rows are years of study. Columns are; Year (year of study), hatch_date (annual population mean hatch date in YYYY-MM-DD format), MORE COLUMN NAMES - AND DETAILS OF EACH VARIABLE (INC. TABLE FROM PAPER).
+Full description of all files and contents in [Data_description.md](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/Data_description.md).
+
+[bio_data.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/bio_data.csv) : biological data used in the analyses. 
+
+[descale.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/descale.csv) : biological data used in the analyses. Rows are individual breeding attempts. Continuous variables are not scaled. All variables are the same as in bio_data.csv.
+
+[bio_data_inheritance.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/bio_data_inheritance.csv) : biological data used in the inheritance analyses. 
+
+[bio_data_t.csv](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : biological data used in the development analyses.
+
+[bio_data_t1.csv](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : biological data used in the development analyses. All variables for year t+1.
+
+[column_names_indiv_time_varying.csv](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : Vector of column names required for capture-mark-recapture analysis. Single column, row names indicate column names.
+
+[cross_validation_data.csv](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : data used to direct cross validation. Contains observed values for environmental and population drivers. No variables are scaled - all in raw units. 
+
+[ped_data.csv](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : pedigree data for the population, based on social information i.e. which parents birds were caught or observed at the nest. 
+
+[year_variables.csv](https://github.com/emilygsimmonds/Cue_Identification/blob/master/bio_data.csv) : datafile containing year varying environmental drivers required for capture-mark-recapture analysis. Each row is a year and each column contains a different variable. Continuous variables are scaled. 
 
 ### Scripts relating to statistical model selection for individual functions:
 
