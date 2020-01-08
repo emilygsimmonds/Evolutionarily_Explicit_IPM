@@ -7,7 +7,7 @@ output: html_document
 
 ## DOI of paper: https://doi.org/10.1111/oik.06985
 
-## DOI of data: 10.5281/zenodo.3601072
+## DOI of data: [10.5281/zenodo.3601072](https://zenodo.org/record/3601072#.XhW8zRdKjUI)
 
 This repository contains:
 
