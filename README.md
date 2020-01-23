@@ -31,7 +31,13 @@ Full description of all files and contents in [Data_description.md](https://gith
 
 [ped_data.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/ped_data.csv) : pedigree data for the population, based on social information i.e. which parents birds were caught or observed at the nest. 
 
-[year_variables.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/year_variables.csv : datafile containing year varying environmental drivers required for capture-mark-recapture analysis. Each row is a year and each column contains a different variable. Continuous variables are scaled. 
+[year_variables.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/year_variables.csv) : datafile containing year varying environmental drivers required for capture-mark-recapture analysis. Each row is a year and each column contains a different variable. Continuous variables are scaled. 
+
+Environmental data note: ©Crown Copyright 2009. The UK Climate Projections (UKCP09) have been made available by the Department for Environment, Food and Rural Affairs (Defra) and the Department of Climate Change (DECC) under licence from the Met
+Office, UK Climate Impacts Programme, British Atmospheric Data Centre, Newcastle University, University of East Anglia,
+Environment Agency, Tyndall Centre and Proudman Oceanographic Laboratory. These organisations give no warranties,
+express or implied, as to the accuracy of the UKCP09 and do not accept any liability for loss or damage, which may arise
+from reliance upon the UKCP09 and any use of the UKCP09 is undertaken entirely at the users risk.
 
 ### Scripts relating to statistical model selection for individual functions:
 
