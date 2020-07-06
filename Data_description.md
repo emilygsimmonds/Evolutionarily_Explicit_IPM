@@ -3,7 +3,7 @@ title: "DATA DESCRIPTION"
 output: html_document
 ---
 
-## Description of datasrets held on this repository
+## Description of datasets held on this repository
 
 ## DOI: 
 
