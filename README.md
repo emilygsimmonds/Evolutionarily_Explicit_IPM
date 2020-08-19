@@ -3,9 +3,11 @@ title: "README"
 output: html_document
 ---
 
-## Code for manuscript: Testing the effect of quantitative genetic inheritance in structured models on projections of population dynamics
+## Code for manuscripts: 
 
-## DOI of paper: https://doi.org/10.1111/oik.06985
+## 1. Testing the effect of quantitative genetic inheritance in structured models on projections of population dynamics (https://doi.org/10.1111/oik.06985)
+
+## 2. Phenological asynchrony: a ticking time-bomb for seemingly stable populations? ()
 
 ## DOI of data: [10.5281/zenodo.3601072](https://zenodo.org/record/3601072#.XhW8zRdKjUI)
 
@@ -15,9 +17,9 @@ This repository contains:
 
 Full description of all files and contents in [Data_description.md](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/Data_description.md).
 
-[bio_data.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/bio_data.csv) : biological data used in the analyses. 
+[bio_data.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/bio_data.csv) : biological data used in the analyses, updated to include the separate cues for great tits and caterpillars. 
 
-[descale.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/descale.csv) : biological data used in the analyses. Rows are individual breeding attempts. Continuous variables are not scaled. All variables are the same as in bio_data.csv.
+[descale.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/descale.csv) : biological data used in the analyses. Rows are individual breeding attempts. Continuous variables are not scaled. All variables are the same as in bio_data.csv, updated to include the separate cues for great tits and caterpillars.
 
 [bio_data_inheritance.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/bio_data_inheritance.csv) : biological data used in the inheritance analyses. 
 
@@ -33,7 +35,7 @@ Full description of all files and contents in [Data_description.md](https://gith
 
 [year_variables.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/year_variables.csv) : datafile containing year varying environmental drivers required for capture-mark-recapture analysis. Each row is a year and each column contains a different variable. Continuous variables are scaled. 
 
-Environmental data note: ©Crown Copyright 2009. The UK Climate Projections (UKCP09) have been made available by the Department for Environment, Food and Rural Affairs (Defra) and the Department of Climate Change (DECC) under licence from the Met
+Environmental data and projections note: ©Crown Copyright 2009. The UK Climate Projections (UKCP09) have been made available by the Department for Environment, Food and Rural Affairs (Defra) and the Department of Climate Change (DECC) under licence from the Met
 Office, UK Climate Impacts Programme, British Atmospheric Data Centre, Newcastle University, University of East Anglia,
 Environment Agency, Tyndall Centre and Proudman Oceanographic Laboratory. These organisations give no warranties,
 express or implied, as to the accuracy of the UKCP09 and do not accept any liability for loss or damage, which may arise
@@ -88,3 +90,11 @@ from reliance upon the UKCP09 and any use of the UKCP09 is undertaken entirely a
 ### Model outputs:
 
 Many of these are too large to store on GitHub but can be found on our Zenodo repository
+
+### Specific scripts for 'Phenological asynchrony: a ticking time-bomb for seemingly stable populations?'
+
+[Final_development_model_maximum_temperature.RData]() : the final model object for the development function, including the maximum temperature cue for great tits.
+
+[caterpillar_timing_model.RData]() : the final model object for the caterpillar timing function, including the caterpillar specific maximum temperature cue.
+
+[Predictive_model_code.R]() : script to run the IPM to create projections of future population size and structure. 
