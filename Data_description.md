@@ -5,11 +5,11 @@ output: html_document
 
 ## Description of datasets held on this repository
 
-## DOI: 
+## DOI: 10.5281/zenodo.168202
 
 ### Data files:
 
-[bio_data.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/bio_data.csv) : biological data used in the analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation).
+[bio_data.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/bio_data.csv) : biological data used in the analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation).
 
 Columns are: 
 
@@ -25,7 +25,7 @@ Columns are:
 * Immigrant (binary variable indicating if a bird was recorded as born in the woodland (1) or not (0))
 * beech (factor indicating amount of beech mast in winter from none (0), little (1), to high (2))
 * pop_size (number of unique breeding females counted in the breeding season - SCALED)
-* Spring_temp (mean of mean daily temperatures (ºC) from 1st march to 9th April (Met Office, 2009, Hollis and McCarthy, 2017) - SCALED)
+* Spring_temp (mean of mean daily temperatures (ºC) from 1st March to 9th May (Met Office, 2009, Hollis and McCarthy, 2017) - SCALED)
 * winter_temp (mean of mean daily temperatures (ºC) from 1st December to 28/29th February Met Office, 2009; Hollis and McCarthy, 2017) - SCALED)
 * winter_precip_t (sum of precipitation (mm) from 1st April to 31st May (Radcliffe Meterological Station, 2016) - SCALED)
 * spring_precip_t (sum of precipitation (mm) from 1st December to 28/29th February (Radcliffe Meterological Station, 2016) - SCALED)
@@ -33,9 +33,12 @@ Columns are:
 * Half_fall (date of peak caterpillar abundance in days since 1st April	Median date on which first instar winter moth larvae descend to ground to pupate - SCALED)
 * R_pop_size (number of unique breeding females that were recorded as born in the woodland and counted in the breeding season - SCALED)
 
-[descale.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/descale.csv) : biological data used in the analyses. Rows are individual breeding attempts. Continuous variables are not scaled. All variables are the same as in bio_data.csv.
+* Spring_temp_GT (cue for great tits: mean of maximum daily temperatures (ºC) from 4th March to 10th May (Met Office, 2009, Hollis and McCarthy, 2017) - SCALED)
+* Spring_temp_cat (cue for caterpillars: mean of maximum daily temperatures (ºC) from 22nd February to 20th May (Met Office, 2009, Hollis and McCarthy, 2017) - SCALED)
 
-[bio_data_inheritance.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/bio_data_inheritance.csv) : biological data used in the inheritance analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation). Restricted to birds that appear in the pedigree. Columns are the same as bio_data.csv with three additions.
+[descale.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/descale.csv) : biological data used in the analyses. Rows are individual breeding attempts. Continuous variables are not scaled. All variables are the same as in bio_data.csv.
+
+[bio_data_inheritance.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/bio_data_inheritance.csv) : biological data used in the inheritance analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation). Restricted to birds that appear in the pedigree. Columns are the same as bio_data.csv with three additions.
 
 Columns are: 
 
@@ -43,9 +46,9 @@ Columns are:
 * animal (the unique British Trust for Ornithology ring number for the focal female)
 * ID (the unique British Trust for Ornithology ring number for the focal female)
 
-[bio_data_t.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/bio_data_t.csv) : biological data used in the development analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation). Restricted to birds that appear in at least two consecutive years in the data.
+[bio_data_t.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/bio_data_t.csv) : biological data used in the development analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation). Restricted to birds that appear in at least two consecutive years in the data.
 
-[bio_data_t1.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/bio_data_t1.csv) : biological data used in the development analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation). Restricted to birds that appear in at least two consecutive years in the data. This datafile contains the data for the year following that in bio_data_t.csv.
+[bio_data_t1.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/bio_data_t1.csv) : biological data used in the development analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation). Restricted to birds that appear in at least two consecutive years in the data. This datafile contains the data for the year following that in bio_data_t.csv.
 
 Columns are: 
 
@@ -59,9 +62,9 @@ Columns are:
 * Round_t1 (Section of the woodland based on habitat type (factor) - for time t+1)
 * R_pop_size_t1 (number of unique breeding females that were recorded as born in the woodland and counted in the breeding season - SCALED - for time t+1)
 
-[column_names_indiv_time_varying.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/column_names_indiv_time_varying.csv) : Vector of column names required for capture-mark-recapture analysis. Single column, row names indicate column names.
+[column_names_indiv_time_varying.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/column_names_indiv_time_varying.csv) : Vector of column names required for capture-mark-recapture analysis. Single column, row names indicate column names.
 
-[cross_validation_data.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/cross_validation_data.csv) : data used to direct cross validation. Contains observed values for environmental and population drivers. No variables are scaled - all in raw units. 
+[cross_validation_data.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/cross_validation_data.csv) : data used to direct cross validation. Contains observed values for environmental and population drivers. No variables are scaled - all in raw units. 
 
 Columns are: 
 
@@ -74,14 +77,14 @@ Columns are:
 * R_Var_clutch_size (Variance of the clutch sizes - for resident birds only)
 * Beech (factor indicating amount of beech mast in winter from none (0), little (1), to high (2))
 * Pop_size (number of unique breeding females counted in the breeding season)
-* s_temp (mean of mean daily temperatures (ºC) from 1st march to 9th May(Met Office, 2009, Hollis and McCarthy, 2017))
+* s_temp (mean of mean daily temperatures (ºC) from 1st March to 9th May (Met Office, 2009, Hollis and McCarthy, 2017))
 * w_temp (mean of mean daily temperatures (ºC) from 1st December to 28/29th February Met Office, 2009; Hollis and McCarthy, 2017))
 * w_precip (sum of precipitation (mm) from 1st April to 31st May (Radcliffe Meterological Station, 2016))
 * s_precip (sum of precipitation (mm) from 1st December to 28/29th February (Radcliffe Meterological Station, 2016))
 * half_fall (date of peak caterpillar abundance in days since 1st April	Median date on which first instar winter moth larvae descend to ground to pupate)
 * R_pop_size (number of unique breeding females that were recorded as born in the woodland and counted in the breeding season)
 
-[ped_data.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/ped_data.csv) : pedigree data for the population, based on social information i.e. which parents birds were caught or observed at the nest. 
+[ped_data.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/ped_data.csv) : pedigree data for the population, based on social information i.e. which parents birds were caught or observed at the nest. 
 
 Columns are: 
 
@@ -89,7 +92,7 @@ Columns are:
 * MOTHER (the unique British Trust for Ornithology ring number for the father of each female)
 * FATHER (the unique British Trust for Ornithology ring number for the mother of each female)
 
-[year_variables.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/year_variables.csv) : datafile containing year varying environmental drivers required for capture-mark-recapture analysis. Each row is a year and each column contains a different variable. Continuous variables are scaled. 
+[year_variables.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/year_variables.csv) : datafile containing year varying environmental drivers required for capture-mark-recapture analysis. Each row is a year and each column contains a different variable. Continuous variables are scaled. 
 
 Columns are: 
 
