@@ -101,7 +101,7 @@ Many of these are too large to store on GitHub but can be found on our Zenodo re
 
 #### Model scripts
 
-[Predictive_model_code.R]() : script to run the IPM to create projections of future population size and structure 
+[Predictive_model_code.R](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/Predictive_model_code.R) : script to run the IPM to create projections of future population size and structure under the three emissions scenarios
 
 
 #### Results
