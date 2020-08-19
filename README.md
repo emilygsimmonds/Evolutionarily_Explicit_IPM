@@ -93,8 +93,34 @@ Many of these are too large to store on GitHub but can be found on our Zenodo re
 
 ### Specific scripts for 'Phenological asynchrony: a ticking time-bomb for seemingly stable populations?'
 
-[Final_development_model_maximum_temperature.RData]() : the final model object for the development function, including the maximum temperature cue for great tits.
+#### Model outputs
 
-[caterpillar_timing_model.RData]() : the final model object for the caterpillar timing function, including the caterpillar specific maximum temperature cue.
+[Final_development_model_maximum_temperature.RData](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/Final_development_model_maximum_temperature.RData) : the final model object for the development function, including the maximum temperature cue for great tits
 
-[Predictive_model_code.R]() : script to run the IPM to create projections of future population size and structure. 
+[caterpillar_timing_model.RData](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/caterpillar_timing_model.RData) : the final model object for the caterpillar timing function, including the caterpillar specific maximum temperature cue
+
+#### Model scripts
+
+[Predictive_model_code.R]() : script to run the IPM to create projections of future population size and structure 
+
+
+#### Results
+
+[Change_in_weather.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/Change_in_weather.csv) : Csv file containing a summary of weather changes over the projection period (2010-2100)
+
+[Perturbations_results.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/Perturbations_results.csv) : Csv file of the results of the perturbation analysis
+
+[high_emissions_results.RData](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/high_emissions_results.RData) : Results of simulations using the high emissions scenario
+
+[medium_emissions_results.RData](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/medium_emissions_results.RData) : Results of simulations using the medium emissions scenario
+
+[low_emissions_results.RData](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/low_emissions_results.RData) : Results of simulations using the low emissions scenario
+
+[only_ST_results.RData](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/only_ST_results.RData) : Results of simulations with spring temperature held at 1961-2010 levels
+
+[only_SP_results.RData](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/only_SP_results.RData) : Results of simulations with spring precipitation held at 1961-2010 levels
+
+[only_WP_results.RData](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/only_WP_results.RData) : Results of simulations with winter precipitation held at 1961-2010 levels
+
+[only_WT_results.RData](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/only_WT_results.RData) : Results of simulations with winter temperature held at 1961-2010 levels
+
