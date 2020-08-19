@@ -79,13 +79,13 @@ from reliance upon the UKCP09 and any use of the UKCP09 is undertaken entirely a
 
 [Reformat_data_for_plotting.R](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/Reformat_data_for_plotting.R) : Script containing a function to reformat model simulation outputs ready for plotting
 
-[Figure_1.R](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/Figure_1.R) : Script to plot Figure 1
+[Figure_1_Oikos.R](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/Figure_1_Oikos.R) : Script to plot Figure 1
 
-[Figure_2.R](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/Figure_2.R) : Script to plot Figure 2
+[Figure_2_Oikos.R](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/Figure_2_Oikos.R) : Script to plot Figure 2
 
-[Figure_3.R](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/Figure_3.R) : Script to plot Figure 3
+[Figure_3_Oikos.R](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/Figure_3_Oikos.R) : Script to plot Figure 3
 
-[Figure_4.R](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/Figure_4.R) : Script to plot Figure 4
+[Figure_4_Oikos.R](https://github.com/emilygsimmonds/Evolutionarily_Explicity_IPM/blob/master/Figure_4_Oikos.R) : Script to plot Figure 4
 
 ### Model outputs:
 
