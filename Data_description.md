@@ -46,7 +46,7 @@ Columns are:
 * animal (the unique British Trust for Ornithology ring number for the focal female)
 * ID (the unique British Trust for Ornithology ring number for the focal female)
 
-[bio_data_t.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/bio_data_t.csv) : biological data used in the development analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation). Restricted to birds that appear in at least two consecutive years in the data.
+[bio_data_t.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/bio_data_t.csv) : biological data used in the development analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation). Restricted to birds that appear in at least two consecutive years in the data. The only difference is Spring_temp_GT = Spring_temp_max here and Spring_temp_cat is not included. 
 
 [bio_data_t1.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/bio_data_t1.csv) : biological data used in the development analyses. Rows are individual breeding attempts. All continuous variables are scaled (mean subtracted and divided by the standard deviation). Restricted to birds that appear in at least two consecutive years in the data. This datafile contains the data for the year following that in bio_data_t.csv.
 
@@ -61,6 +61,7 @@ Columns are:
 * spring_precip_t1 (sum of precipitation (mm) from 1st December to 28/29th February (Radcliffe Meterological Station, 2016) - SCALED - for time t+1) 
 * Round_t1 (Section of the woodland based on habitat type (factor) - for time t+1)
 * R_pop_size_t1 (number of unique breeding females that were recorded as born in the woodland and counted in the breeding season - SCALED - for time t+1)
+* Spring_temp_max_t1 (mean of maximum daily temperatures (ºC) from 4th March to 10th May (Met Office, 2009, Hollis and McCarthy, 2017) - SCALED - for time t+1)
 
 [column_names_indiv_time_varying.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/column_names_indiv_time_varying.csv) : Vector of column names required for capture-mark-recapture analysis. Single column, row names indicate column names.
 
