@@ -35,6 +35,12 @@ Full description of all files and contents in [Data_description.md](https://gith
 
 [year_variables.csv](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/year_variables.csv) : datafile containing year varying environmental drivers required for capture-mark-recapture analysis. Each row is a year and each column contains a different variable. Continuous variables are scaled. 
 
+[high_emissions_predictions.RData](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/high_emissions_predictions.RData) : datafile containing projections of environmental drivers for the high emission scenario.
+
+[mid_emissions_predictions.RData](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/mid_emissions_predictions.RData) : datafile containing projections of environmental drivers for the mid emission scenario.
+
+[low_emissions_predictions.RData](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/low_emissions_predictions.RData) : datafile containing projections of environmental drivers for the low emission scenario.
+
 Environmental data and projections note: ©Crown Copyright 2009. The UK Climate Projections (UKCP09) have been made available by the Department for Environment, Food and Rural Affairs (Defra) and the Department of Climate Change (DECC) under licence from the Met
 Office, UK Climate Impacts Programme, British Atmospheric Data Centre, Newcastle University, University of East Anglia,
 Environment Agency, Tyndall Centre and Proudman Oceanographic Laboratory. These organisations give no warranties,
