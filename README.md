@@ -7,7 +7,7 @@ output: html_document
 
 ## 1. Testing the effect of quantitative genetic inheritance in structured models on projections of population dynamics (https://doi.org/10.1111/oik.06985)
 
-## 2. Phenological asynchrony: a ticking time-bomb for seemingly stable populations? ()
+## 2. Phenological asynchrony: a ticking time-bomb for seemingly stable populations? (10.1111/ele.13603)
 
 ## DOI of data: [10.5281/zenodo.3601072](https://zenodo.org/record/3601072#.XhW8zRdKjUI)
 
