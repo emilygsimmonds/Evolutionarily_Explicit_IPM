@@ -107,7 +107,9 @@ Columns are:
 * R_pop_size (number of unique breeding females that were recorded as born in the woodland and counted in the breeding season - SCALED)
 
 
-
+[high_emissions_predictions.RData](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/high_emissions_predictions.RData) : datafile containing projections of environmental drivers for the high emission scenario.
+[mid_emissions_predictions.RData](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/mid_emissions_predictions.RData) : datafile containing projections of environmental drivers for the high emission scenario.
+[low_emissions_predictions.RData](https://github.com/emilygsimmonds/Evolutionarily_Explicit_IPM/blob/master/low_emissions_predictions.RData) : datafile containing projections of environmental drivers for the high emission scenario. : these datafiles contain projections for the environmental drivers (mean spring temperature, spring precipitation, winter temperature, winter precipitation, beech mast index, mean maximum spring temperature for great tits, and mean maximum spring temperature for caterpillars). Each variable has 1000 columns to represent 1000 equally likely future projections. Each row is one year. There are 91 rows in total.
 
 
 
